@@ -12,8 +12,6 @@
 */
 
 use App\Jobs\testTask;
-use App\User;
-use EasyWeChat\Factory;
 
 Route::get('/', function () {
     return view('welcome');
